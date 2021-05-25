@@ -111,6 +111,50 @@ a:hover {
     text-align: left;
 }
 
+
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+#gifs, {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#gifs > img {
+  width: 25%;
+}
+
+#roof-dance {
+  flex-direction: row;
+}
+
+#roof-dance > video {
+  width: 33%;
+}
+
+.homegifs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+
+}
+
+.homegifs > img{
+  width: 360px;
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 
 
@@ -153,29 +197,8 @@ nav {
     overflow: hidden;
 
 }
-
+.homegifs {
+  flex-direction: column;
 }
 
-
-::selection {
-    background-color: black;
-    color: white;
-}
-
-#gifs {
-  display: flex;
-  flex-direction: row;
-
-}
-
-#gifs > img {
-  width: 25%;
-}
-
-#roof-dance {
-  flex-direction: row;
-}
-
-#roof-dance > video {
-  width: 33%;
 }
