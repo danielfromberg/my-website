@@ -136,6 +136,65 @@ a:hover {
   width: 33%;
 }
 
+
+
+
+
+
+                      @media only screen and (max-width: 768px) {
+
+
+                      #parent {
+                          margin: 0;
+                          width: 100%;
+                      }
+
+
+                      nav {
+
+                          margin: 0;
+                          width: 100%;
+                      }
+
+                      #parallel-embeds {
+                          flex-direction: row;
+                      }
+
+                      #proj-1, #proj-2, #proj-3, #proj-4, #proj-5, #parent {
+                          margin: 0;
+                          width: 100%;
+                          min-width: 100vw;
+                          font-size: 1.3em;
+                          height: min-content;
+                          overflow: hidden;
+                      }
+
+
+
+                      #embeds {
+
+                          width: 100%;
+                      }
+
+                      #cv {
+
+                          font-size: 1.3em;
+                          line-height: 1.6;
+                          overflow: hidden;
+
+                      }
+                      .homegifs {
+                        flex-direction: column;
+                      align-items: center;
+                      }
+
+                      }
+
+
+
+
+
+
 .homegifs {
   display: flex;
   flex-direction: row;
@@ -146,60 +205,4 @@ a:hover {
 
 .homegifs > img{
   width: 50%;
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-
-
-#parent {
-    margin: 0;
-    width: 100%;
-}
-
-
-nav {
-
-    margin: 0;
-    width: 100%;
-}
-
-#parallel-embeds {
-    flex-direction: row;
-}
-
-#proj-1, #proj-2, #proj-3, #proj-4, #proj-5, #parent {
-    margin: 0;
-    width: 100%;
-    min-width: 100vw;
-    font-size: 1.3em;
-    height: min-content;
-    overflow: hidden;
-}
-
-
-
-#embeds {
-
-    width: 100%;
-}
-
-#cv {
-
-    font-size: 1.3em;
-    line-height: 1.6;
-    overflow: hidden;
-
-}
-.homegifs {
-  flex-direction: column;
-align-items: center;
-}
-
 }
