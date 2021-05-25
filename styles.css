@@ -130,7 +130,7 @@ nav {
     flex-direction: row;
 }
 
-#bio, #proj-1, #proj-2, #proj-3, #proj-4, #proj-5, #parent {
+#proj-1, #proj-2, #proj-3, #proj-4, #proj-5, #parent {
     margin: 0;
     width: 100%;
     min-width: 100vw;
@@ -138,6 +138,8 @@ nav {
     height: min-content;
     overflow: hidden;
 }
+
+
 
 #embeds {
 
