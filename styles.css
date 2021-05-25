@@ -107,10 +107,6 @@ a:hover {
     margin-right: 20px;
 }
 
-#bio {
-    text-align: left;
-}
-
 
 
 ::selection {
@@ -174,6 +170,9 @@ a:hover {
                       #gifs, #roof-dance {
                         flex-direction: column;
                       }
+                      #bio {
+                        margin: 0;
+                      }
                       }
 
 
@@ -212,4 +211,8 @@ a:hover {
 #gifs > img {
   width: 25%;
   margin: 0;
+}
+
+#bio {
+    text-align: left;
 }
